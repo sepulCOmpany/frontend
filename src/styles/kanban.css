@@ -1,0 +1,63 @@
+.Kanban {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+::selection {
+    background: #4158d0;
+    color: #fff;
+}
+
+.Kanban button {
+    position: absolute;
+}
+
+.SepulcaListSection {
+    /* display: flex; */
+    justify-content: stretch;
+    width: 100%;
+    margin: 40px;
+}
+
+.SepulcaListSection h1 {
+    color: beige;
+    padding: 10px;
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    gap: 10px 20px;
+}
+
+.SepulcaList::-webkit-scrollbar {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.SepulcaList {
+    border: 1px solid lightgrey;
+    /* display: flex; */
+    padding: 15px;
+    height: 700px;
+    /* margin-right: 40px; */
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #fffeff;
+    border-radius: 25px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+
+.Sepulca {
+    padding: 10px;
+    background-color: linear-gradient(-135deg, white, grey);;
+    opacity: 50%;
+    margin: 20px;
+    border-radius: 25px;
+    border: black;
+    outline: auto;
+}
